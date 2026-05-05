@@ -1,0 +1,272 @@
+[
+  {
+    "amie": "08H01069",
+    "institucion": "ESCUELA CARLOS GARBAY MONTESDEOCA",
+    "ubicacion": {
+      "provincia": "SANTO DOMINGO DE LOS TSÁCHILAS",
+      "canton": "LA CONCORDIA",
+      "parroquia": "LA VILLEGAS",
+      "zona": "Rural"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Matutina"
+    },
+    "estadisticas": {
+      "estudiantes": 345,
+      "docentes": 15
+    }
+  },
+  {
+    "amie": "08H01073",
+    "institucion": "GUSTAVO BECERRA ORTIZ",
+    "ubicacion": {
+      "provincia": "SANTO DOMINGO DE LOS TSÁCHILAS",
+      "canton": "LA CONCORDIA",
+      "parroquia": "LA VILLEGAS",
+      "zona": "Rural"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Matutina y Vespertina"
+    },
+    "estadisticas": {
+      "estudiantes": 820,
+      "docentes": 32
+    }
+  },
+  {
+    "amie": "08H01078",
+    "institucion": "AMIGUITOS DE LA INFANCIA",
+    "ubicacion": {
+      "provincia": "SANTO DOMINGO DE LOS TSÁCHILAS",
+      "canton": "LA CONCORDIA",
+      "parroquia": "MONTERREY",
+      "zona": "Rural"
+    },
+    "detalles": {
+      "sostenimiento": "Particular",
+      "jornada": "Matutina"
+    },
+    "estadisticas": {
+      "estudiantes": 120,
+      "docentes": 8
+    }
+  },
+  {
+    "amie": "08H01079",
+    "institucion": "DR RICARDO PAREDES ROMERO",
+    "ubicacion": {
+      "provincia": "SANTO DOMINGO DE LOS TSÁCHILAS",
+      "canton": "LA CONCORDIA",
+      "parroquia": "LA VILLEGAS",
+      "zona": "Rural"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Matutina"
+    },
+    "estadisticas": {
+      "estudiantes": 215,
+      "docentes": 10
+    }
+  },
+  {
+    "amie": "08H01081",
+    "institucion": "VICTOR MANUEL VILLEGAS PLAZA",
+    "ubicacion": {
+      "provincia": "SANTO DOMINGO DE LOS TSÁCHILAS",
+      "canton": "LA CONCORDIA",
+      "parroquia": "LA VILLEGAS",
+      "zona": "Rural"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Vespertina"
+    },
+    "estadisticas": {
+      "estudiantes": 450,
+      "docentes": 18
+    }
+  },
+  {
+    "amie": "08H01105",
+    "institucion": "ESCUELA SAGRADOS CORAZONES",
+    "ubicacion": {
+      "provincia": "SANTO DOMINGO DE LOS TSÁCHILAS",
+      "canton": "LA CONCORDIA",
+      "parroquia": "MONTERREY",
+      "zona": "Rural"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscomisional",
+      "jornada": "Matutina"
+    },
+    "estadisticas": {
+      "estudiantes": 600,
+      "docentes": 25
+    }
+  },
+  {
+    "amie": "08H01106",
+    "institucion": "ANTONIO ALOMIA LLORY",
+    "ubicacion": {
+      "provincia": "SANTO DOMINGO DE LOS TSÁCHILAS",
+      "canton": "LA CONCORDIA",
+      "parroquia": "LA VILLEGAS",
+      "zona": "Rural"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Matutina"
+    },
+    "estadisticas": {
+      "estudiantes": 180,
+      "docentes": 7
+    }
+  },
+  {
+    "amie": "08H01112",
+    "institucion": "ESCUELA TIERRA ESMERALDEÑA",
+    "ubicacion": {
+      "provincia": "SANTO DOMINGO DE LOS TSÁCHILAS",
+      "canton": "LA CONCORDIA",
+      "parroquia": "MONTERREY",
+      "zona": "Rural"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Matutina"
+    },
+    "estadisticas": {
+      "estudiantes": 290,
+      "docentes": 12
+    }
+  },
+  {
+    "amie": "08H01124",
+    "institucion": "ESC. SIMON BOLIVAR",
+    "ubicacion": {
+      "provincia": "SANTO DOMINGO DE LOS TSÁCHILAS",
+      "canton": "LA CONCORDIA",
+      "parroquia": "LA CONCORDIA",
+      "zona": "Urbana"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Matutina y Vespertina"
+    },
+    "estadisticas": {
+      "estudiantes": 1250,
+      "docentes": 45
+    }
+  },
+  {
+    "amie": "08H01127",
+    "institucion": "CENTRO OCUPACIONAL POPULAR NUEVA CONCORDIA",
+    "ubicacion": {
+      "provincia": "SANTO DOMINGO DE LOS TSÁCHILAS",
+      "canton": "LA CONCORDIA",
+      "parroquia": "LA CONCORDIA",
+      "zona": "Urbana"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Nocturna"
+    },
+    "estadisticas": {
+      "estudiantes": 150,
+      "docentes": 10
+    }
+  },
+  {
+    "amie": "17H02345",
+    "institucion": "COLEGIO NACIONAL MEJIA",
+    "ubicacion": {
+      "provincia": "PICHINCHA",
+      "canton": "QUITO",
+      "parroquia": "SAN JUAN",
+      "zona": "Urbana"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Matutina, Vespertina y Nocturna"
+    },
+    "estadisticas": {
+      "estudiantes": 3500,
+      "docentes": 120
+    }
+  },
+  {
+    "amie": "09H04567",
+    "institucion": "UNIDAD EDUCATIVA VICENTE ROCAFUERTE",
+    "ubicacion": {
+      "provincia": "GUAYAS",
+      "canton": "GUAYAQUIL",
+      "parroquia": "TARQUI",
+      "zona": "Urbana"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Matutina y Vespertina"
+    },
+    "estadisticas": {
+      "estudiantes": 4200,
+      "docentes": 145
+    }
+  },
+  {
+    "amie": "01H00123",
+    "institucion": "UNIDAD EDUCATIVA BENIGNO MALO",
+    "ubicacion": {
+      "provincia": "AZUAY",
+      "canton": "CUENCA",
+      "parroquia": "EL SAGRARIO",
+      "zona": "Urbana"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Matutina"
+    },
+    "estadisticas": {
+      "estudiantes": 2100,
+      "docentes": 85
+    }
+  },
+  {
+    "amie": "11H00890",
+    "institucion": "ESCUELA DE EDUCACIÓN BÁSICA LAURO DAMERVAL AYORA",
+    "ubicacion": {
+      "provincia": "LOJA",
+      "canton": "LOJA",
+      "parroquia": "SUCRE",
+      "zona": "Urbana"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscal",
+      "jornada": "Matutina"
+    },
+    "estadisticas": {
+      "estudiantes": 850,
+      "docentes": 35
+    }
+  },
+  {
+    "amie": "21H00456",
+    "institucion": "UNIDAD EDUCATIVA JULIO MARIA MATOVELLE",
+    "ubicacion": {
+      "provincia": "SUCUMBÍOS",
+      "canton": "LAGO AGRIO",
+      "parroquia": "NUEVA LOJA",
+      "zona": "Urbana"
+    },
+    "detalles": {
+      "sostenimiento": "Fiscomisional",
+      "jornada": "Matutina"
+    },
+    "estadisticas": {
+      "estudiantes": 1100,
+      "docentes": 42
+    }
+  }
+]

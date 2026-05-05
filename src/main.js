@@ -1,44 +1,26 @@
-import './style.css';
+import $ from 'jquery';
 import DataTable from 'datatables.net-dt';
 import 'datatables.net-dt/css/dataTables.dataTables.css';
 
-const API_URL = "https://raw.githubusercontent.com/PlataformasWeb-P-AA2026/api-demo/main/db.json"
+// Importas el nuevo archivo JSON complejo
+import datosEscuelas from './datos_escuelas.json'; 
 
-async function cargarDatos() {
-  try {
-    const respuesta = await fetch(API_URL);
-
-    if (!respuesta.ok) {
-      throw new Error('Error al consumir la API');
-    }
-
-    const datos = await respuesta.json();
-
-    new DataTable('#tabla-posts', {
-      data: datos,
-      columns: [
-        { data: 'AMIE' },
-        { data: 'Nombre-Educativa' },
-        { data: 'Canton' },
-        { data: 'Parroquia' }
-      ],
-      pageLength: 10,
-      language: {
-        search: 'Buscar:',
-        lengthMenu: 'Mostrar _MENU_ registros',
-        info: 'Mostrando _START_ a _END_ de _TOTAL_ registros',
-        paginate: {
-          previous: 'Anterior',
-          next: 'Siguiente'
+$(document).ready(function () {
+    $('#myTable').DataTable({ 
+        data: datosEscuelas,
+        columns: [
+            // Datos directos
+            { data: 'amie', title: 'Código AMIE' },
+            { data: 'institucion', title: 'Institución' },
+            
+            // Usamos el PUNTO para entrar a los objetos anidados
+            { data: 'ubicacion.provincia', title: 'Provincia' },
+            { data: 'ubicacion.canton', title: 'Cantón' },
+            { data: 'detalles.sostenimiento', title: 'Sostenimiento' },
+            { data: 'estadisticas.estudiantes', title: 'Total Estudiantes' }
+        ],
+        language: {
+            url: 'https://cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json'
         }
-      }
     });
-  } catch (error) {
-    console.error(error);
-    document.querySelector('#app').innerHTML += `
-      <p class="error">No se pudieron cargar los datos.</p>
-    `;
-  }
-}
-
-cargarDatos();
+});
